@@ -1,6 +1,6 @@
 body {
     margin: 0;
-    user-select: 640px;
+    user-select: none;
 }
 
 #mario {
@@ -35,7 +35,7 @@ label {
     color: #FFF;
     display: none;
 
-    &.viseble {
+    &.visible {
         display: block;
     }
 }

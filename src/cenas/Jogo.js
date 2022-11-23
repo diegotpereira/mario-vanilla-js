@@ -17,7 +17,7 @@ class Jogo extends Phaser.Cena {
         this.tileset = this.map.addTilesetImage('map-tileset', 'tiles');
         this.plataform = this.map.createStaticLayer('plataform', this.tileset, 0, 0);
 
-        this.map.createStaticLayer('background', thid.tileset, 0, 0);
+        this.map.createStaticLayer('background', this.tileset, 0, 0);
         this.plataform.setCollisionByExclusion(-1, true);
     }
 }
